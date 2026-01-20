@@ -22,9 +22,13 @@ No bottom subtraction or slots are applied.
 2. Enter your string to create a barcode-only stl model
 3. Add to your favorate base
 4. Change parameters:
+   
 OPENSCAD_EXE = r"C:\Program Files\OpenSCAD\openscad.exe" - change to your OpenSCAD install path
+
 UNIT = 0.6                                               - unit mm, define your barcode width
+
 BAR_LENGTH = 25.0                                        - unit mm, define your barcode length
+
 BAR_DEPTH  = 0.5                                         - unit mm, define your barcode depth
 
 ## Aplication
