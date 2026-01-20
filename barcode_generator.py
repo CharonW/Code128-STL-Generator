@@ -166,7 +166,7 @@ with open(SCAD_FILE, "w", encoding="utf-8") as f:
 
     f.write(f"modules = {modules};\n\n")
 
-    f.write("// 递归前缀和（兼容所有 OpenSCAD 版本）\n")
+    f.write("// OpenSCAD ）\n")
     f.write("function prefix_sum(arr, i) =\n")
     f.write("    (i <= 0) ? 0 : arr[i-1] + prefix_sum(arr, i-1);\n\n")
 
