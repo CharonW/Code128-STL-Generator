@@ -20,6 +20,14 @@ No bottom subtraction or slots are applied.
 1. Run the script:
 2. Enter your string to create a barcode-only stl model
 3. Add to your favorate base
+4. Change parameters:
+OPENSCAD_EXE = r"C:\Program Files\OpenSCAD\openscad.exe" - change to your OpenSCAD install path
+UNIT = 0.6                                               - unit mm, define your barcode width
+BAR_LENGTH = 25.0                                        - unit mm, define your barcode length
+BAR_DEPTH  = 0.5                                         - unit mm, define your barcode depth
+
+## Printing
+I personally use Solidworks/Onshape to design, TinkerCAD/Autodesk Fusion to modify STL model, and Bambu Studio/Bambulb X1C (0.2mm/0.4mm nozele) + AMS to print.  
 
 ```bash
 python barcode_generator.py
