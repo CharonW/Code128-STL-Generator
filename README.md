@@ -26,6 +26,9 @@ UNIT = 0.6                                               - unit mm, define your 
 BAR_LENGTH = 25.0                                        - unit mm, define your barcode length
 BAR_DEPTH  = 0.5                                         - unit mm, define your barcode depth
 
+## Aplication
+Turn your Gym/loyalty/reward card into a customized 3D printing art.
+
 ## Printing
 I personally use Solidworks/Onshape to design, TinkerCAD/Autodesk Fusion to modify STL model, and Bambu Studio/Bambulb X1C (0.2mm/0.4mm nozele) + AMS to print.  
 
