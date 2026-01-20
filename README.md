@@ -11,7 +11,8 @@ No bottom subtraction or slots are applied.
 - Black bars extruded vertically from a base plane
 - Configurable unit width, bar length, bar height, and base thickness
 - Automatically generates an OpenSCAD file (`.scad`) and STL file (`.stl`)
-
+- Directly generate barcode mesh using ISO standard instead of translating from vector art
+  
 ## Requirements
 - Python 3.x
 - OpenSCAD installed and CLI accessible (update `OPENSCAD_EXE` in the script if needed)
